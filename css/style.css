@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: #2E4053;
+}
+div {
+    text-align: center;
+}
+
+search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
