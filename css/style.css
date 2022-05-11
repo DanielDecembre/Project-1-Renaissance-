@@ -7,15 +7,48 @@ h3 {
 }
 
 body {
-    background-color: #2E4053;
+    margin:0;
+    padding: 0;
+    background-color: #196F3D;
 }
 div {
     text-align: center;
 }
 
-search-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: .25rem;
+search-box{
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50,-50);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
 }
-
+search-box:hover > search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+search button{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E5E7E9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+}
