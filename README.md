@@ -16,11 +16,11 @@ The first interation gives you a look into how it would work.
 
 #### Technology
 
--HMTML
--CSS
--Javascript
-  -Jquerey
-    -AJAX
+-HTML5(#html5))
+-CSS(#css)
+-Javascript(javascript)
+  -Jquerey(jquerey)
+    -AJAX(ajax)
     
     ---
     
