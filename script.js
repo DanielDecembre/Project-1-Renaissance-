@@ -1,11 +1,11 @@
 alert("javascript is linked");
 // VARIABLES//
-const URL = 'https://api.artic.edu/api/v1/artworks/129884';
+const URL = 'https://api.artic.edu/api/v1/artworks/129884'
 console.log(URL);
 
 
 //ELEMENTS//
-// const $title = $('#title')
+// const $artist = $('#Artist')
 // const $year = $('#Year')
 // const $mediums = $('#Mediums')
 // const form = 
@@ -27,12 +27,10 @@ function handleGetData(){
 $.ajax(URL).then(function(data) {
     console.log('Art data ready')
     console.log(data)
-    // $name.text(data.title)
+    // $name.text(data.Artist)
     // $year.text(data.Year)
     // $mediums.text(data.Mediums)
 }, function(error) {
     console.log('something is wrong')
     console.log(error)
 })
-
-}// }$getArtworkBtn.on('click', getArtwork)
