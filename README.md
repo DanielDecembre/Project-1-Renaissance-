@@ -16,10 +16,15 @@ The first interation gives you a look into how it would work.
 
 #### Technology
 
--HTML5(#html5))
--CSS(#css)
--Javascript(javascript)
-  -Jquerey(jquerey)
+-HTML5
+
+-CSS
+
+-Javascript
+
+  -JQuerey
+  
+ 
     -AJAX(ajax)
     
     ---
